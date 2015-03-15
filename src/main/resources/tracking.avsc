@@ -1,0 +1,10 @@
+{"namespace": "transport.avro",
+ "type": "record",
+ "name": "Envelope",
+ "fields": [
+     {"name": "type", "type": "string"},
+     {"name": "timefmt",  "type": "string"},
+     {"name": "time", "type" : "string"},
+     {"name": "tstamp", "type" : "long"}
+ ]
+}
